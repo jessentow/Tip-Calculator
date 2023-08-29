@@ -3,13 +3,18 @@ print()
 
 
 x = float(charge_of_food)
+
+print("INPUT")
+
+print()
 print("Charge of Food is = $"+str(x))
 print()
 y= 18/100
 r = float(x)
 z = y*r
 
-
+print("OUTPUT")  
+print()
 e = round(z, 2)
 
 
