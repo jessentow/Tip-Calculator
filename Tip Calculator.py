@@ -1,8 +1,9 @@
-charge_of_food = input("Please enter the charge of food : ")
+charge_of_food = input("Please enter the charge of food : $ ")
 print()
 
-x = charge_of_food
-print("Charge of Food is = $"+x)
+
+x = float(charge_of_food)
+print("Charge of Food is = $"+str(x))
 print()
 y= 18/100
 r = float(x)
@@ -10,6 +11,7 @@ z = y*r
 
 
 e = round(z, 2)
+
 
 print ("Tips = $" +str(e))
 print()
